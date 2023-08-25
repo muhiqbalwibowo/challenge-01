@@ -1,0 +1,167 @@
+@media(max-width: 1000px) {
+    .sidebar {
+        background-color: #ffffff;
+    }
+
+}
+
+@media(max-width: 400){
+    .container-fluid{
+        margin: auto;
+        width: 50%
+    }
+
+}
+
+@font-face{
+    font-family: 'Helvetica light';
+    src: url(libraries/font/HelveticaLt.ttf);
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.home{
+    width: 100%;
+        margin-top: 6rem;
+}
+
+.navbar-brand {
+    height: 34px;
+    width: 100px;
+    background-color: #0d28a6;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.margin-left {
+    margin-left: 6%;
+}
+.margin-right{
+    margin-right: 6%;
+}
+
+.banner-color {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #F1F3FF;
+}
+
+.text-banner1 {
+    flex-direction: wrap;
+    font-family: Helvetica;
+    line-height: 54px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.text-banner2 {
+    width: 468px;
+    font-family: "Helvetica light",; 
+    line-height: 20px;
+    font-size: 0.8rem;
+}
+
+.text-nav {
+
+    color: black;
+    font-family: Helvetica;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.text-btn {
+    white-space: nowrap;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+
+}
+
+.btn {
+    border-radius: 2px;
+    background-color: #5CB85F;
+    gap: 10px;
+
+}
+
+.btn-register {
+    width: 81px;
+    height: 36px;
+    padding: 8px, 12px, 8px, 12px;
+    border-radius: 2px;
+    background-color: #5CB85F;
+    gap: 10px
+}
+
+.navbar {
+    background-color: #F1F3FF;
+}
+
+.bg-car {
+    margin-right: -703px;
+    width: 704px;
+    height: 243px;
+    background: #120da6;
+    border-radius: 60px 0px 0px 0px;
+}
+
+.img-car {
+    display: flex;
+    width: 704px;
+    height: 407px;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+h4 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    margin: auto;
+    width: 100%
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-size: 0.8rem;
+}
+.card-testimonial{
+    background-color: #F1F3FF;
+    border-radius: 8px;
+}
+.card-body-color{
+    background-color: #0D28A6;
+}
+.img-contact{
+    width: 224px;
+    height: 32px;
+}
+.rate-img{
+    height: 1rem;
+    width: 5rem !important;
+    align-items: flex-start;
+}
+.testimonial-desc {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.accordion-item-edit {
+    margin-bottom: 1rem !important;
+    border: 1px solid #e0e0e0 !important;
+    overflow: none !important;
+}
